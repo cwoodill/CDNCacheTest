@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDNCacheTest", "CDNCacheTest\CDNCacheTest.csproj", "{01AD2427-4740-408F-B0C9-F44AF76D7ED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDNCacheTest.Tests", "CDNCacheTest.Tests\CDNCacheTest.Tests.csproj", "{A3741D2A-6C60-413C-840F-14153823EF15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{214807E5-7B6A-4ADF-829A-BF39C7BF1FF6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01AD2427-4740-408F-B0C9-F44AF76D7ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AD2427-4740-408F-B0C9-F44AF76D7ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AD2427-4740-408F-B0C9-F44AF76D7ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AD2427-4740-408F-B0C9-F44AF76D7ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3741D2A-6C60-413C-840F-14153823EF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3741D2A-6C60-413C-840F-14153823EF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3741D2A-6C60-413C-840F-14153823EF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3741D2A-6C60-413C-840F-14153823EF15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

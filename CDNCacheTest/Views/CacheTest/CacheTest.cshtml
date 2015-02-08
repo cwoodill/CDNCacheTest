@@ -1,0 +1,42 @@
+﻿@model CacheTest.Models.CacheTestModel
+
+@{
+    ViewBag.Title = "CacheTest";
+}
+
+<h2>CacheTest</h2>
+
+<div>
+    <h4>CacheTestModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RandomNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RandomNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CacheTimeOutInSeconds)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CacheTimeOutInSeconds)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConstructionTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConstructionTime)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
