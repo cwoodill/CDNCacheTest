@@ -20,7 +20,7 @@ namespace CacheTest.Controllers
         {
             Response.AddHeader("Cache-Control", "public, max-age=900, s-maxage=900");
              CacheTestModel cacheTestModel = new CacheTestModel();
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Cache Testing Page.";
             return View(cacheTestModel);
         }
     }
